@@ -23,37 +23,37 @@ before:
 # Create one step for each action that a learner will complete
 
 steps:
-# Step 1: INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
+# Step 1: Listing files - *ls* command
+- title: # List files with `ls` command
+  description: # Basic UNIC command for lisitng files, folders
   event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 2: INTERNAL COMMENT FOR STEP 2
-# - title: # the title of the step, shown to the learner in the course progress page
+# Step 2: Options for listing files
+# - title: # Do more with `ls` command
+#  description: # learn some of the most used options that `ls` command has
+#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+
+# Step 3: Finding files with `find` command
+# - title: # Search for files
+#  description: # Use `find` command to look for files by name
+#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+
+# Step 4: Options for the `find` command
+# - title: # Learn some of the options `find` command has
 #  description: # a description of the step, shown to the learner in the course progress page
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 3: INTERNAL COMMENT FOR STEP 3
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
-
-# Step 4: INTERNAL COMMENT FOR STEP 4
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
-
-# Step 5: INTERNAL COMMENT FOR STEP 5
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 5: Combine commands - combine learned commands
+# - title: # Combine the 2 commands 
+#  description: # Learn to chain together commands
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
